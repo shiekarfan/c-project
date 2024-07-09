@@ -1,6 +1,6 @@
-i#include <stdio.h>
+#include <stdio.h>
 
-int main() {
+void reverse() {
 
   int n, reverse = 0, remainder;
 
@@ -13,7 +13,7 @@ int main() {
     n /= 10;
   }
 
-  printf("Reversed number = %d", reverse);
+  printf("Reversed number = %d\n\n", reverse);
 
-  return 0;
+  // return 0;
 }

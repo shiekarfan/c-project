@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main() {
+void factorial() {
     int n, i;
     unsigned long long fact = 1;
-    printf("Enter an integer: ");
+    printf("\n\nEnter an integer: ");
     scanf("%d", &n);
 
     // shows error if the user enters a negative integer
@@ -12,9 +12,9 @@ int main() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf("Factorial of %d = %llu", n, fact);
+        printf("Factorial of %d = %llu\n\n", n, fact);
     }
 
-    return 0;
+   // return 0;
 }
 
